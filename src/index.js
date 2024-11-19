@@ -11,8 +11,7 @@ class App extends Component {
   }
 }
 
-console.log(document.getElementById("react-target"));
-console.log(document.getElementById("test"));
+console.log("test");
 
 ReactDOM.render(
   React.createElement(App, {}, null),
