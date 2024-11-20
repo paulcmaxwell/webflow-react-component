@@ -65,5 +65,8 @@ async function getCollections() {
 console.log("test");
 
 const services = await getCollections();
+const titles = services.map((item) => {
+  item.fieldData.name;
+});
 // const services = "xyz";
-console.log(services);
+console.log(titles);
